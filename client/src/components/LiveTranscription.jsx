@@ -11,7 +11,7 @@
         const [listening, setListening] = useState(false);
         const [saving, setSaving] = useState(false);
         const [title, setTitle] = useState(""); 
-        const [language, setLanguage] = useState("hi-IN");
+        const [language, setLanguage] = useState("en-IN");
         const [finalText, setFinalText] = useState("");
         const [interimText, setInterimText] = useState("");
         const [error, setError] = useState("");
