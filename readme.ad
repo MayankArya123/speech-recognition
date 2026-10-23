@@ -2,8 +2,6 @@ Speech to Text: Real-time Multilingual Transcription
 
 A web app where you speak into your microphone and see the text appear in real time. It is built for mixed Hindi + English speech. Transcripts can be saved to a PostgreSQL database and managed (view, search, edit, delete) from a dashboard.
 
-Built for the Procucev AI Tech Hiring Assignment 1.
-
 Live demo:   https://speech-recognition-beryl.vercel.app/
 Backend API: https://speech-recognition-t5pu.onrender.com
 Repository:  https://github.com/MayankArya123/speech-recognition
@@ -23,4 +21,3 @@ Speech recognition	Browser Web Speech API (SpeechRecognition)
 Backend	Node.js, Express
 ORM	Prisma
 Database	PostgreSQL (Supabase)
-Hosting	Render (backend), <frontend host> (frontend)
