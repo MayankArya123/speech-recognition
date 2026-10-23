@@ -1,0 +1,26 @@
+Speech to Text: Real-time Multilingual Transcription
+
+A web app where you speak into your microphone and see the text appear in real time. It is built for mixed Hindi + English speech. Transcripts can be saved to a PostgreSQL database and managed (view, search, edit, delete) from a dashboard.
+
+Built for the Procucev AI Tech Hiring Assignment 1.
+
+Live demo:   https://speech-recognition-beryl.vercel.app/
+Backend API: https://speech-recognition-t5pu.onrender.com
+Repository:  https://github.com/MayankArya123/speech-recognition
+
+
+Features
+Real-time speech-to-text with interim (live) and finalized text
+Hindi + English (mixed) and English (India) recognition modes
+Auto-restart when the browser ends a recognition session after a pause
+Save transcripts to PostgreSQL with a custom title
+Dashboard with transcription history and full CRUD (create, read, update, delete)
+Toast notifications for success, loading, and error states
+Tech Stack
+Layer	Technology
+Frontend	React (Create React App), Tailwind CSS, lucide-react, react-hot-toast, Axios
+Speech recognition	Browser Web Speech API (SpeechRecognition)
+Backend	Node.js, Express
+ORM	Prisma
+Database	PostgreSQL (Supabase)
+Hosting	Render (backend), <frontend host> (frontend)
