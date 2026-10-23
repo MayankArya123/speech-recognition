@@ -1,3 +1,4 @@
+import prisma from "../lib/prisma";
 
 const saveLiveTranscription = async (req, res) => {
     try {
