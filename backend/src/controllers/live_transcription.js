@@ -2,7 +2,7 @@ const  prisma = require("../lib/prisma")
 const saveLiveTranscription = async (req, res) => {
     try {
         const { title, content, language } = req.body;
-
+        
         if (typeof content !== "string" || !content.trim()) {
             return res.status(400).json({
                 message: "Transcript content is required.",
