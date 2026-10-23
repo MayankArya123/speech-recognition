@@ -1,5 +1,4 @@
-import prisma from "../lib/prisma";
-
+const  prisma = require("../lib/prisma")
 const saveLiveTranscription = async (req, res) => {
     try {
         const { title, content, language } = req.body;
